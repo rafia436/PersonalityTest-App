@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">PersonalitiesToDo</string>
+
+
+    //MULTIPLE ACTIVITIES STRINGS
+    <string name="answerTheDamnQuestionToast">Answer the DAMN question dude</string>
+
+    //mainScreen Strings
+    <string name="whatsMyPTextView">What\'s my personality?</string>
+    <string name="iKnowMyPTextView">I know my personality!</string>
+
+    //WhichMethodToUse Strings
+    <string name="WhichMethodToUseTextView">Which method to use?</string>
+    //RADIOBUTTONS
+    <string name="behaviourRadioButton">Behaviour</string>
+    <string name="zodiacRadioButton">Zodiac</string>
+    <string name="looksRadioButton">Looks</string>
+    //BUTTON
+    <string name="letsGoButton">LET\'S GO!</string>
+
+    //WhichPersonalityDescribesYouBest Strings
+    <string name="whichOneAreYouTextView">Which one of these personalities describes you more?</string>
+    //personalities RadioButtons
+    <string name="conscientiousnessRadioButton">Conscientiousness</string>
+    <string name="extroversionRadioButton">Extroversion</string>
+    <string name="agreeablenessRadioButton">Agreeableness</string>
+    <string name="opennessRadioButton">Openness to experience</string>
+    <string name="neuroticismRadioButton">Neuroticism</string>
+    //Two Buttons Down There
+    <string name="letsGoButton2">LET\'S GO!</string>
+    <string name="whatDotheyMeanButton">What do they mean?</string>
+
+    //Behaviour Strings
+    <string name="behaviourTitleTextView">Behaviour Method</string>
+    <string name="answerWithFullHonestyTextView">For the best results, answer the 5 questions with full honesty</string>
+    <string name="beginButton">Begin!</string>
+
+    //BQ1
+    <string name="bQ1TextView">When do you sleep?</string>
+
+</resources>

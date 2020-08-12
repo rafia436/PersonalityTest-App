@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".WhichMethodToUse"
+    android:background="#d9dee1"
+    >
+
+    <LinearLayout
+        android:layout_width="439dp"
+        android:layout_height="141dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#ce60c6"
+        >
+
+
+        <TextView
+            android:id="@+id/WhichMethodToUseTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/WhichMethodToUseTextView"
+            android:textSize="30sp"
+
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="398dp"
+        android:layout_height="158dp"
+        android:layout_marginBottom="30dp"
+        android:background="#ffcb00"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/methodsRadioGroup"
+            android:layout_width="342dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/behaviourRadioButton"
+                android:layout_width="243dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:buttonTint="#ce60c6"
+                android:text="@string/behaviourRadioButton" />
+
+            <RadioButton
+                android:id="@+id/zodiacRadioButton"
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:buttonTint="#ffcb00"
+                android:text="@string/zodiacRadioButton"
+
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="151dp"
+        android:paddingLeft="70dp"
+        android:background="#d9dee1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/letsGoButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:bottomRightRadius="30dp"
+            android:bottomLeftRadius="30dp"
+            android:topLeftRadius="30dp"
+            android:topRightRadius="30dp"
+
+
+            android:text="@string/letsGoButton"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

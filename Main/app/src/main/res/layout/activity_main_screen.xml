@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#d9dee1"
+    android:orientation="vertical"
+    tools:context=".mainScreen">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mainimage"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d9dee1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/whatsMyPTextView"
+            android:layout_width="458dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="45dp"
+            android:background="#ce60c6"
+
+            android:text="@string/whatsMyPTextView"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/iKnowMyPTextView"
+            android:layout_width="482dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#ffcb00"
+            android:text="@string/iKnowMyPTextView"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
